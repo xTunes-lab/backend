@@ -1,0 +1,14 @@
+mutagen
+fastapi[standard]
+pydantic
+sqlalchemy
+pillow == 12.1.1
+python-dateutil
+python-ffmpeg
+filesizelib
+
+pypinyin
+hangul-romanize
+pykakasi
+
+regex
