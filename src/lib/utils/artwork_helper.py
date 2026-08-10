@@ -41,7 +41,7 @@ class ArtworkHelper:
     def artwork_to_base64(url) -> str:
         r2 = requests.get(url)
         r2.raise_for_status()
-        img_data = f"data:{r2.headers['Content-Type']};base64,{base64.b64encode(r2.content).decode("utf-8")}"
+        img_data = f"data:{r2.headers['Content-Type']};base64,{base64.b64encode(r2.content).decode('utf-8')}"
         return img_data
 
     @staticmethod
